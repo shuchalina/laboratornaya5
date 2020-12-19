@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+div {
+    margin: 20px 130px;
+    background-color: rgb(210, 210, 210);
+    width: 500px;
+    height: 175px;
+    text-align: center;
+    padding-top: 125px;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(70, 70, 70);
+    clear: both;
+}
+
+div.a {
+    float: right;
+}
+
+img {
+    position: fixed;
+    right: 0px;
+    bottom: 50px;
+    width: 120px;
+    opacity: 0.3;
+    cursor: pointer;
+    display: none;
+}
+
+img:hover {
+    opacity: 0.6;
+}
+
+.eye {
+    display: block;
+}
+
+@media (min-width: 1365px) and (min-width: 767px) {
+    .eye {
+        display: block;
+    }
+}
